@@ -5,7 +5,7 @@ description = "Examples for curve construction and swaption pricing using qfinli
 authors = [{ name = "Quant Research Team", email = "quant@example.com" }]
 requires-python = ">=3.11,<4.0"
 dependencies = [
-    "qfinlib",
+    "qfinlib (>=2025.1228.1700,<2026.0.0)",
     "matplotlib>=3.8,<4.0",
 ]
 
