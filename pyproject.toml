@@ -3,7 +3,7 @@ name = "qfinlib-research-notes"
 version = "0.1.0"
 description = "Examples for curve construction and swaption pricing using qfinlib."
 authors = [{ name = "Quant Research Team", email = "quant@example.com" }]
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4.0"
 dependencies = [
     "qfinlib",
     "matplotlib>=3.8,<4.0",
