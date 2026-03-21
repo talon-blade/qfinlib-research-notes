@@ -37,5 +37,4 @@ if __name__ == "__main__":
     result = pricer.price(swaption, market)
 
     print("Swaption valuation result using random market data:")
-    for k, v in result.items():
-        print(f"  {k}: {v:.6f}")
+    print(result)
